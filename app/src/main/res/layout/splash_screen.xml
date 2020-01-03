@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discover Events"
+        android:textSize="20sp"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginEnd="25dp"/>
+
+    <TextView
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="end"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Around the City"
+        android:textSize="25sp"/>
+    <ImageView
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splashscreen"/>
+
+
+</LinearLayout>

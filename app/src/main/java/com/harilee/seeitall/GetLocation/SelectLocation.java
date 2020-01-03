@@ -1,12 +1,13 @@
 package com.harilee.seeitall.GetLocation;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.material.snackbar.Snackbar;
+import com.harilee.seeitall.Dashboard.BaseActivity;
 import com.harilee.seeitall.R;
 import com.harilee.seeitall.Utils.Utility;
 
@@ -29,6 +30,8 @@ public class SelectLocation extends AppCompatActivity implements SelectLocationP
 
     @OnClick(R.id.fetch_location_bt)
     public void onViewClicked() {
+
+        startActivity(new Intent(SelectLocation.this, BaseActivity.class));
     }
 
     @Override

@@ -12,11 +12,11 @@
         android:textSize="20sp"
         android:layout_gravity="end"
         android:gravity="end"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/black"
         android:layout_marginEnd="25dp"/>
 
     <TextView
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/black"
         android:gravity="end"
         android:layout_marginEnd="15dp"
         android:layout_width="match_parent"
